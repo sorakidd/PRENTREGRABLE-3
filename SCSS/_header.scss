@@ -1,0 +1,28 @@
+.logo img {
+    max-width: 150px; 
+    height: auto;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto; /* centro todo */
+ }
+
+
+ .titulo {
+    background-image: radial-gradient(ellipse 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+
+    .subtitulo {
+        font-family: fantasy;
+    }
+    .animate_animated {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+}

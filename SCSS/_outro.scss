@@ -1,0 +1,22 @@
+.parent {
+    h2 {
+      font-family: $font-cursive;
+      color: #ffcc00;
+      margin-bottom: 20px;
+      background-color: black;
+      display: inline-block;
+    }
+  
+    .otro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .subotro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: fantasy;
+    }
+  }

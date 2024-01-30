@@ -1,0 +1,29 @@
+.video-container {
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+   
+    & iframe {
+      display: block;
+      margin: 0 auto;
+    }
+   
+    figcaption {
+      font-family: $font-cursive;
+      font-size: 2em;
+      font-weight: bold;
+      color: $color-red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+   }
+   
+   .bodyvideos {
+    background-color: #8B0000;
+   }
