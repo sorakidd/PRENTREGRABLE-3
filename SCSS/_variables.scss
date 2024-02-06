@@ -1,6 +1,13 @@
 //colores
 $color-red: #f44336;
+$color-titulo: #ffcc00;
 
 
 //letras
 $font-cursive: 'Brush Script MT', cursive;
+
+//mixin
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}

@@ -16,16 +16,24 @@ body {
   margin: 0 auto; /* centro todo */
 }
 
+#navbarNav {
+  justify-content: center;
+}
+
 .titulo {
   background-image: radial-gradient(ellipse 2);
+  background-color: coral;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   padding: 10px;
 }
 .titulo .subtitulo {
   font-family: fantasy;
+}
+.titulo .animate_animated {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .biografia {
@@ -51,22 +59,16 @@ body {
   width: 47%;
   margin: 1%;
   font-family: Arial, Helvetica, sans-serif;
-  transition: transform 0.5s ease;
-  
-        &:hover {
-          transform: scale(1.1);
-        }
+  transition: transform 0.3s ease;
 }
-.fotos .image-container .image-container img {
+.fotos .image-container:hover {
+  transform: scale(1.1);
+}
+.fotos .image-container img {
   width: 100%;
   height: auto;
 }
 
-.video-container {
-  display: inline-block;
-  text-align: left;
-  margin: 20px;
-}
 .video-container iframe {
   width: 100%;
   height: auto;
@@ -83,27 +85,44 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .bodyvideos {
   background-color: #8B0000;
 }
 
-.parent h2 {
+.bodyvideos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulovideo {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  size: 100px;
+}
+
+.contenedor-outro h2 {
   font-family: "Brush Script MT", cursive;
   color: #ffcc00;
   margin-bottom: 20px;
   background-color: black;
-  display: inline-block;
-}
-.parent .otro {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  margin-top: 20px;
 }
-.parent .subotro {
+.contenedor-outro .otro,
+.contenedor-outro .subotro {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: fantasy;
-}/*# sourceMappingURL=main.css.map */
+  color: black;
+}
+.contenedor-outro .otro {
+  font-weight: bold;
+}

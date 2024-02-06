@@ -15,8 +15,8 @@
     }
 
         .image-container img {
-            width: 100%;
-            height: auto;
+
+            @include sizes(100%, auto)
         
             
         }

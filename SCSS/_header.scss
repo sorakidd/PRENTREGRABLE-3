@@ -10,13 +10,18 @@ body {
     margin: 0 auto; /* centro todo */
  }
 
+ #navbarNav {
+    justify-content: center;
+  }
+
 
  .titulo {
     background-image: radial-gradient(ellipse 2);
+    background-color: coral;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding: 10px;
 
     .subtitulo {
